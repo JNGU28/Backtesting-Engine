@@ -15,4 +15,4 @@ Walk-forward backtester for trading rules on ^SP500TR total-return data (2011–
 
 ## Run
 pip install -r requirements.txt
-python backtest.py
+python Backtest.py

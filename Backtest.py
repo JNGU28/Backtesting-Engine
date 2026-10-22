@@ -1,8 +1,4 @@
-"""Homework 4 starter — Algory QI Education, Fall 2026
 
-The backtester is the piece worth getting right. Everything after it in the
-semester assumes it works.
-"""
 import numpy as np
 import yfinance as yf
 import matplotlib.pyplot as plt
@@ -107,9 +103,9 @@ def five_day_reversal(window):
 
 
 def my_strategy(window):
-    """Your own rule. It sees only `window`, the previous LOOKBACK closes.
+    """It sees only `window`, the previous LOOKBACK closes.
 
-    It must never look at anything after that. That is the whole assignment.
+    It must never look at anything after that.
     """
     # TODO
     return True
